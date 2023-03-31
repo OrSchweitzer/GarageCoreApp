@@ -10,7 +10,7 @@ namespace GarageCoreApp
     internal class MotorCycle : Vehicle
     {
 
-        public bool extrasSeat;
+        protected bool extrasSeat;
 
         public bool ExtraSeat
         {

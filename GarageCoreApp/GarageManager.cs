@@ -27,7 +27,7 @@ namespace GarageCoreApp
 
         public GarageData garageData;
 
-       static string storagePath = "c:\\temp.json";
+       static string storagePath = "c:\\Temp\\garage.json";
        
        public GarageManager()
         {
@@ -132,7 +132,6 @@ namespace GarageCoreApp
 
         void exitProgram()
         {
-            this.storeData();
             Environment.Exit(0);
         }
 
